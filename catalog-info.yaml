@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: digital api
+  description: The scotia digital API
+  tags:
+    - bank
+    - rest
+    - project reactor
+    - maven
+    - log4j
+spec:
+  type: service
+  owner: christian.lazo@encora.com
+  lifecycle: experimental
